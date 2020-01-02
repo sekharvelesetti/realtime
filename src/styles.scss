@@ -1,0 +1,21 @@
+// /* You can add global styles to this file, and also import other style files */
+$theme-colors: (
+  "primary": rgb(0, 0, 0),
+  "myowncolor": rgb(0, 225, 255),
+  "danger": #f30c00,
+  "warning": rgb(212, 49, 49),
+  "success": rgb(6, 121, 44),
+  "info":rgb(54, 52, 131),
+  "default":rgb(234, 241, 236),
+);
+@import "../node_modules/bootstrap/scss/bootstrap";
+$color1:#000;
+$color2:#FFF;
+$color3:#333;
+$color4:#666;
+$color5:#999;
+$base-color: #c6538c;
+$border-dark: rgba($base-color, 0.88);
+.alert {
+  border: 1px solid $border-dark;
+}
