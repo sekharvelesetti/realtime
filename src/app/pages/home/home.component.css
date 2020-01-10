@@ -5,12 +5,11 @@
 
 img {
     height: 200px;
+    width: auto;
 }
 .name:hover {
     font-size: large;
     font-family: Georgia, 'Times New Roman', Times, serif;
+    color: rgb(0, 124, 248);
 }
 
-.sidenav {
-    height:500px;
-}

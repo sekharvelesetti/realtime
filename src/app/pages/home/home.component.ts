@@ -1,5 +1,6 @@
 import { Component, OnInit } from '@angular/core';
 import { ServiceService } from 'src/app/service.service';
+import { ActivatedRoute } from '@angular/router';
 
 @Component({
   selector: 'app-home',
@@ -8,12 +9,14 @@ import { ServiceService } from 'src/app/service.service';
 })
 export class HomeComponent implements OnInit {
 product=[]
+
   constructor(private service:ServiceService) { }
  
   ngOnInit() {
     this.product=Object.values(this.service.cars)
-  console.log(this.product)    
-
+ 
   }
+
+
 
 }

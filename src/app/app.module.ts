@@ -13,6 +13,9 @@ import { ForgotpasswordComponent } from './forms/forgotpassword/forgotpassword.c
 import { ResetpasswordComponent } from './forms/resetpassword/resetpassword.component';
 import { HeaderComponent}     from './common/header/header.component';
 import { FooterComponent } from './common/footer/footer.component';
+import { AdddetailsComponent } from './pages/adddetails/adddetails.component';
+import { FormsModule, ReactiveFormsModule } from '@angular/forms'
+
 
 @NgModule({
   declarations: [
@@ -26,12 +29,15 @@ import { FooterComponent } from './common/footer/footer.component';
     ForgotpasswordComponent,
     ResetpasswordComponent,
     HeaderComponent,
-    FooterComponent
+    FooterComponent,
+    AdddetailsComponent
    
   ],
   imports: [
     BrowserModule,
-    AppRoutingModule
+    AppRoutingModule,
+    FormsModule,
+    ReactiveFormsModule
     
   ],
   providers: [],

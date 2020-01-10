@@ -1,0 +1,39 @@
+   <div class="container">   
+        <div class="row">
+            <div class="col-md-6 v">
+                <div><img src="{{products.image}}"></div> 
+                <div class="row justify-content-center mt-3">
+                <a  class="card-link"><button class="btn btn-primary btn-lg  "  routerLink="/adddetails"  (click)="add(car)"> Message</button></a>
+                <a  class="card-link"><button class="btn btn-warning btn-lg">Contact</button></a>
+            </div>
+          </div>
+       
+        <div class="col-md-6   ">
+            <table class="table table-striped text-center border bg-$color4">
+                <tr>
+                    <th>vechicle Details</th>
+                </tr>
+                <tr>
+                    <td><h5>model:{{products.model}}</h5></td>
+                </tr>
+                <tr>
+                    <td><h5>price:{{products.price}}</h5></td>
+                </tr>
+                <tr>
+                    <td><h5>name:{{products.name}}</h5></td>
+                </tr>
+            </table>
+            <div class="text-center border ">
+                <table class="table table-stripped text-dark">
+                    <tr><td><h1>Seller description</h1></td></tr>
+                    <tr><td><p>P.raghuram</p></td></tr>
+                    <tr><td><h6>"address name:"</h6></td></tr>
+                    <tr><td><h6>{{products.location}}</h6></td></tr>
+                    <tr><button class="btn btn-primary btn mb-2">chat with user</button></tr>
+                </table>
+            </div>
+            </div>
+        </div>
+    </div>
+
+

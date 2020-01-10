@@ -6,6 +6,7 @@ import { LoginComponent } from './forms/login/login.component';
 import { RegisterComponent } from './forms/register/register.component';
 import { ForgotpasswordComponent } from './forms/forgotpassword/forgotpassword.component';
 import { ResetpasswordComponent } from './forms/resetpassword/resetpassword.component';
+import { AdddetailsComponent } from './pages/adddetails/adddetails.component';
 
 
 const routes: Routes = [
@@ -15,7 +16,9 @@ const routes: Routes = [
   {path:'register',component:RegisterComponent},
   {path:'login',component:LoginComponent},
   {path:'forgotpassword',component:ForgotpasswordComponent},
-  {path:'resetpassword',component:ResetpasswordComponent}
+  {path:'resetpassword',component:ResetpasswordComponent},
+  {path:'adddetails',component:AdddetailsComponent},
+  {path:'adddetails/:sek',component:AdddetailsComponent}
   
 ];
 

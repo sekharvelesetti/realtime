@@ -10,6 +10,8 @@ export class MyadsComponent implements OnInit {
   constructor() { }
 
   ngOnInit() {
+    
+
   }
 
 }
